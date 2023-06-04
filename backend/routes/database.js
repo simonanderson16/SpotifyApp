@@ -9,6 +9,7 @@ const {
   where,
   doc,
   updateDoc,
+  setDoc,
 } = require("firebase/firestore");
 
 router.get("/", function (req, res, next) {
